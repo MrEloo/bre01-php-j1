@@ -1,6 +1,6 @@
 <?php
 
-function average($tabs)
+function average($tabs): float
 {
 
     $result = 0;

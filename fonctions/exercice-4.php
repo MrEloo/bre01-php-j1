@@ -1,11 +1,11 @@
 <?php
 
-function getFirst($tab)
+function getFirst(array $tab): ?int
 {
     if ($tab) {
         echo $tab[0];
     } else {
-        echo 'null';
+        return null;
     }
 };
 

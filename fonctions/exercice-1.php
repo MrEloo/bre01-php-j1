@@ -2,7 +2,7 @@
 
 
 
-$concat = fn ($string1, $string2) => "$string1  $string2";
+$concat = fn (string $string1, string $string2): string => "$string1  $string2";
 
 
 echo $concat("Hello ", "World !<br>");

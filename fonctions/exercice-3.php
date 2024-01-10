@@ -1,11 +1,11 @@
 <?php
 
-function isOdd($int)
+function isOdd($int): ?bool
 {
     if ($int % 2 === 0) {
-        return "$int est pair";
+        return true;
     } else {
-        return "$int est impair";
+        return false;
     }
 };
 
