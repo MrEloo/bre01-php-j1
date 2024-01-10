@@ -1,0 +1,18 @@
+<?php
+$number1 = 41;
+$number2 = 34;
+
+?>
+
+<article>
+    <?php if ($number1 % 2 === 0) : ?>
+        <p class="red"><?= $number1; ?></p>
+    <?php else : ?>
+        <p class="blue"><?= $number1; ?></p>
+    <?php endif; ?>
+    <?php if ($number2 % 2 === 0) : ?>
+        <p class="red"><?= $number2; ?></p>
+    <?php else : ?>
+        <p class="blue"><?= $number2; ?></p>
+    <?php endif; ?>
+</article>
